@@ -15,7 +15,7 @@ const FetchItems=()=>{
       const signal = controller.signal;
 
       dispatch(fetchStatusActions.markFetchingStarted());
-      fetch("http://localhost:8080/items" , {signal})
+      fetch("/items" , {signal})
       .then(res => res.json())
       .then(({items}) => {
          dispatch(fetchStatusActions.markFetchDone());
@@ -34,3 +34,5 @@ const FetchItems=()=>{
 };
 
 export default FetchItems;
+
+// fetch("http://localhost:8080/items" , {signal})
