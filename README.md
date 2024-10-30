@@ -2,11 +2,11 @@
 
 Host URL :
 
-    https://shiny-zabaione-ecc038.netlify.app/
+https://shiny-zabaione-ecc038.netlify.app/
 
 If website doesnot load, open this link first, then visit Host URL Again
        
-    https://myntra-clone-z5ic.onrender.com/items
+https://myntra-clone-z5ic.onrender.com/items
 
 This project is a web application designed to mimic the functionality of Myntra, a popular online fashion and lifestyle retail platform. The application is developed using modern web technologies including HTML, CSS, JavaScript, Bootstrap, React, and Redux Toolkit.
 
